@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Interativo - Férias 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Férias 2025</h1>
+</header>
+
+<nav>
+    <a href="index.html">Bahia</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="interativo.html">Interativo</a>
+</nav>
+
+<main>
+    <h2>Pronto para curtir as férias?</h2>
+    <p>Clique no botão e descubra sua vibe de férias!</p>
+    <br>
+    <button class="botao" onclick="mensagem()">Clique aqui</button>
+    <p id="resposta"></p>
+</main>
+
+<footer>
+    <p>Aproveite as férias para descansar, se divertir e criar memórias inesquecíveis!</p>
+</footer>
+
+<script>
+function mensagem() {
+    document.getElementById("resposta").innerHTML =
+    "🌴 Sua vibe é praia, sol, água fresca e muita diversão!";
+}
+</script>
+
+</body>
+</html>
